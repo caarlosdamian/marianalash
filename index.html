@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bella Estética - Premium Beauty Services</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://unpkg.com/@fortawesome/fontawesome-free/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+<link rel="icon" href="./eye.png" type="image/png">
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="navbar">
+        <div class="nav-container">
+          <div class="nav-logo">
+            <h2>Bella Estética</h2>
+          </div>
+          <ul class="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#book">Book</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <div class="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Enhance Your Natural Beauty</h1>
+          <p>
+            Discover our premium beauty services designed to boost your
+            confidence and highlight your natural elegance.
+          </p>
+          <div class="hero-buttons">
+            <a href="#book" class="btn btn-primary">Book Appointment</a>
+            <a href="#services" class="btn btn-secondary">View Services</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img
+            class="hero-placeholder"
+            src="https://images.unsplash.com/photo-1589710751893-f9a6770ad71b?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="hero-section"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+      <div class="container">
+        <div class="section-header">
+          <h2>Our Services</h2>
+
+          <p>
+            We offer a wide range of beauty services with the highest standards
+            of quality.
+          </p>
+        </div>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-eye"></i>
+            </div>
+            <h3>Eyelash Extensions</h3>
+            <p>
+              Advanced techniques for voluminous, natural-looking lashes that
+              last for weeks.
+            </p>
+            <div class="service-price">From $80</div>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <h3>Microblading</h3>
+
+            <p>
+              Perfectly defined eyebrows with semi-permanent microblading
+              technique.
+            </p>
+            <div class="service-price">From $120</div>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-tint"></i>
+            </div>
+            <h3>Facial Treatments</h3>
+
+            <p>
+              Personalized treatments for all skin types, rejuvenation, and
+              hydration.
+            </p>
+            <div class="service-price">Desde $60</div>
+          </div>
+          <!-- <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-hand-sparkles"></i>
+            </div>
+            <h3>Manicure & Pedicure</h3>
+
+            <p>
+              Complete care for hands and feet with premium products and
+              specialized techniques.
+            </p>
+            <div class="service-price">From $40</div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about-us" class="about">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-text">
+            <h2>Beauty Experts</h2>
+
+            <p>
+              With over 10 years of experience, our team of certified
+              specialists is dedicated to providing beauty services of the
+              highest quality.
+            </p>
+            <div class="about-features">
+              <div class="feature">
+                <i class="fas fa-certificate"></i>
+                <span>Certified Specialists</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-award"></i>
+                <span>Premium Products</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-heart"></i>
+                <span>Personalized Care</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-image">
+            <img
+              class="about-placeholder"
+              src="https://images.pexels.com/photos/5128277/pexels-photo-5128277.jpeg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Booking Section - Calendly Integration -->
+    <section id="book" class="booking">
+      <div class="container">
+        <div class="section-header">
+          <h2>Book Your Appointment</h2>
+          <p>Select the day and time that best fits your schedule</p>
+        </div>
+        <div class="booking-content">
+          <div class="booking-info">
+            <h3>Why Choose Us?</h3>
+            <ul>
+              <li>
+                <i class="fas fa-check"></i> Personalized free consultation
+              </li>
+              <li><i class="fas fa-check"></i> Highest quality products</li>
+              <li>
+                <i class="fas fa-check"></i> Relaxing and professional
+                environment
+              </li>
+              <li><i class="fas fa-check"></i> Flexible hours</li>
+            </ul>
+            <div class="booking-contact">
+              <p><i class="fas fa-phone"></i> (555) 123-4567 ***</p>
+              <p><i class="fas fa-envelope"></i> info@bellaestetica.com***</p>
+            </div>
+          </div>
+          <div class="calendly-container">
+            <!-- Aquí integrarás tu widget de Calendly -->
+            <div class="calendly-placeholder">
+              <!-- Calendly inline widget begin -->
+              <div
+                class="calendly-inline-widget"
+                data-url="https://calendly.com/codecat95/30min"
+                style="min-width: 320px; height: 700px"
+              ></div>
+              <!-- Calendly inline widget end -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+      <div class="container">
+        <div class="section-header">
+          <h2>Work Gallery</h2>
+          <p>Discover some of our most outstanding work</p>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img
+              class="gallery-placeholder"
+              src="https://images.unsplash.com/photo-1548902378-2ec44c906391?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="p1"
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              class="gallery-placeholder"
+              src="https://images.unsplash.com/photo-1501644898242-cfea317d7faf?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="p2"
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              class="gallery-placeholder"
+              src="https://images.unsplash.com/photo-1581182800629-7d90925ad072?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="p3"
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              class="gallery-placeholder"
+              src="https://images.pexels.com/photos/5128259/pexels-photo-5128259.jpeg"
+              alt="p3"
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              class="gallery-placeholder"
+              src="https://images.pexels.com/photos/5128182/pexels-photo-5128182.jpeg"
+              alt="p3"
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              class="gallery-placeholder"
+              src="https://images.pexels.com/photos/5128218/pexels-photo-5128218.jpeg"
+              alt="p3"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section
+    <section id="contacto" class="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2>Contáctanos</h2>
+          <p>Estamos aquí para ayudarte con cualquier pregunta</p>
+        </div>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Dirección</h4>
+                <p>123 Calle Principal, Ciudad, Estado 12345</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h4>Teléfono</h4>
+                <p>(555) 123-4567</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>Email</h4>
+                <p>info@bellaestetica.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-clock"></i>
+              <div>
+                <h4>Horarios</h4>
+                <p>
+                  Lun-Vie: 9:00 AM - 7:00 PM<br />Sáb: 9:00 AM - 5:00 PM<br />Dom:
+                  Cerrado
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form id="contact-form">
+              <div class="form-group">
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Nombre completo"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Correo electrónico"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input type="tel" name="phone" placeholder="Teléfono" />
+              </div>
+              <div class="form-group">
+                <textarea
+                  name="message"
+                  placeholder="Mensaje"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                Enviar Mensaje
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Bella Estética</h3>
+            <p>
+              Your destination for premium beauty and specialized personal care.
+            </p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="footer-section">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="#">Eyelash Extensions</a></li>
+              <li><a href="#">Microblading</a></li>
+              <li><a href="#">Facial Treatments</a></li>
+              <li><a href="#">Manicure & Pedicure</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Information</h4>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Frequently Asked Questions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms and Conditions</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Contact</h4>
+            <p><i class="fas fa-map-marker-alt"></i> 123 Main Street, City</p>
+            <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+            <p><i class="fas fa-envelope"></i> info@bellaestetica.com</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 Bella Estética. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="./index.js"></script>
+  <script
+    type="text/javascript"
+    src="https://assets.calendly.com/assets/external/widget.js"
+    async
+  ></script>
+</html>
