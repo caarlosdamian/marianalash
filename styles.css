@@ -630,6 +630,10 @@ h3 {
     color: var(--primary-color);
 }
 
+.top-spacing {
+    margin-top: 34px;
+}
+
 .social-links {
     display: flex;
     gap: 1rem;
@@ -807,8 +811,9 @@ html {
     .services-grid {
         grid-template-columns: 1fr;
         gap: 1.5rem;
+        align-items: center;
     }
-    
+
     .service-card {
         padding: 2rem;
     }
